@@ -1,0 +1,31 @@
+header {
+	text-transform: uppercase;
+	background-color: #498aee;
+	color: white;
+	font-weight: 600;
+	padding: 8px 15px;
+	.date {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 16px;
+		.date__views {
+			height: 60px;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: center;
+			.date__day {
+				font-size: 45px;
+				padding-right: 8px;
+			}
+			.date__month {
+				font-size: 17px;
+			}
+			.date__years {
+				font-size: 15px;
+				font-weight: 300;
+			}
+		}
+	}
+}

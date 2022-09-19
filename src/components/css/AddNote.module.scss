@@ -1,0 +1,33 @@
+.btn__add {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px;
+	.btn {
+		background-color: #3e79d3;
+		width: 40px;
+		height: 40px;
+		border: none;
+		border-radius: 100%;
+		color: #fff;
+		font-size: 28px;
+		cursor: pointer;
+		transition: transform 0.2s ease-in-out;
+		&:hover {
+			transform: rotate(90deg);
+		}
+	}
+	input {
+		outline: none;
+		border: 1px solid #d4d4d4;
+		font-size: 18px;
+		width: 80%;
+		padding: 6px;
+		border-radius: 8px;
+		transition: border-color 0.15s ease-in-out;
+	}
+	input:hover,
+	input:focus {
+		border-color: #3e79d3;
+	}
+}
